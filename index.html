@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>rinks Shope</title>
+  <!-- boot link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <section>
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div id="modal-container">
+   <!-- modal in js -->
+
+ 
+
+
+
+    </div>
+  </section>
+
+  <!-- header section .... -->
+  <header class="text-center bg-light py-5 shadow-lg container rounded-pill">
+    <h1 class="text-center my-3 text-warning">Drinks house</h1>
+    <h1 class="text-secondary">
+      Search Your Drinks
+    </h1>
+    <input id="search-field" class="border border-warning p-2 m-2" type="text" name="">
+    <button id="btn-search" class="btn btn-info m-2 text-white font-bold"> Search</button>
+  </header>
+
+
+  <main>
+
+      <!-- for loader -->
+      <section id="loader" class="text-center py-5 items-center d-none">
+        <div class="spinner-border text-secondary " role="status">
+            <span class="">Loading.....</span>
+        </div>
+    </section>
+    <section>
+      <div id="drinks-constainer" class="row row-cols-1 row-cols-md-3 g-4 p-5">
+
+
+      </div>
+    </section>
+  </main>
+
+
+  <!-- js link -->
+  <script src="./js/coktaildb.js"></script>
+
+  <!-- boot js link  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
